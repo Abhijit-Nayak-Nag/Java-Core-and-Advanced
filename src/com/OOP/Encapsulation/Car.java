@@ -2,9 +2,11 @@ package com.OOP.Encapsulation;
 
 public class Car {
     public String color;
-    public String model;
+    public static String model;
     private double fuelLevel;
     private long costOfPurchase;
+
+    protected int dateOfPurchase;
 
     //    public static void main(String[] args) {
 //        Car car = new Car();

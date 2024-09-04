@@ -12,6 +12,27 @@ public class Car extends Vehicle {
         System.out.println("No of tyres: " +car.getNoOfTires());
         car.commute();
 
+        System.out.println();
+
+        System.out.println(car.noOfTires=5);
+        car.commute();
+
+        System.out.println();
+
+        car.noOfTires= 4;
+        System.out.println(car.noOfTires);
+        car.commute();
+
+        System.out.println();
+
+        car.name="Suzuki Swift";
+        System.out.println(car.name);
+        String str= car.name = "Toyota";
+        System.out.println(str);
+        System.out.println(car.name);
+        System.out.println(car.name="Toyota");
+
+
     }
 
 

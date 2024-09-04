@@ -6,11 +6,11 @@ import java.util.Scanner;
 
 public class Arr {
 
-    static List<String> arr = new ArrayList<>();
+    static List<Integer>arr = new ArrayList<>();
 
 
     // method to add element into the array:
-    public void add(String s) {
+    public void add(int s) {
         arr.add(s);
     }
 
@@ -22,9 +22,9 @@ public class Arr {
     }
 
     public static void main(String[] args) {
-        System.out.println("Enter your number that you want to add in your array: ");
+        System.out.println("Enter your Number that you want to add in your array: ");
         Scanner sc= new Scanner(System.in);
-        String s= sc.nextLine();
+        int s= sc.nextInt();
         Arr a= new Arr();
         a.add(s);
         System.out.println(a);
@@ -32,3 +32,5 @@ public class Arr {
     }
 
 }
+
+

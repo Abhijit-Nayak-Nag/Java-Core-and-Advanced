@@ -2,6 +2,7 @@ package com.OOP.inheritanceImportantConcept;
 
 public class Vehicle {
     public int noOfTires;
+    public String name;
 
     public Vehicle(){
         noOfTires=5;
@@ -27,7 +28,7 @@ public class Vehicle {
                 '}';
     }
 
-    public void commute(){
+    public void commute() {
         System.out.printf("I am going from place  A to place B using %d", noOfTires);
     }
 }

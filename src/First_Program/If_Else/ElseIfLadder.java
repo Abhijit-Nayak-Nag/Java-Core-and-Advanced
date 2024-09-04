@@ -8,11 +8,10 @@ public class ElseIfLadder {
             System.out.println("Hello Senior Citizen");
         } else if (isAnAdult) {
             System.out.println("Hello Adult");
+            System.out.println("else if ladder will work ");
         } else {
             System.out.println("Hello Child");
         }
 
     }
-
-
 }

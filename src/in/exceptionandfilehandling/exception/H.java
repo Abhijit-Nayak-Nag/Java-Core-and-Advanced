@@ -1,5 +1,6 @@
 package in.exceptionandfilehandling.exception;
 
+
 public class H {
     private int sal;
 
@@ -18,8 +19,6 @@ public class H {
 
         H h1= new H();
         System.out.println(h1.sal);
-
-
 
     }
 }
